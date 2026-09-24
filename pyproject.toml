@@ -1,7 +1,7 @@
 [project]
 name = "expense-tracker-cloudflare"
 version = "1.0.0"
-description = "Expense Tracker - Flask app running on Cloudflare Workers + D1"
+description = "Expense Tracker - Flask app"
 requires-python = ">=3.12"
 dependencies = [
     "flask",
@@ -12,3 +12,6 @@ dev = [
     "workers-py",
     "workers-runtime-sdk",
 ]
+
+[tool.setuptools]
+py-modules = ["app", "templates"]
