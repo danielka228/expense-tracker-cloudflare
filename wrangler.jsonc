@@ -11,7 +11,5 @@
       "database_id": "6a1e8988-001e-4807-9d05-74b343fc1966"
     }
   ],
-  "secrets": {
-    "required": ["SECRET_KEY"]
-  }
+  
 }
