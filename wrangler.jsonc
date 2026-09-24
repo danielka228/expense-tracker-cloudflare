@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "expense-tracker",
+  "main": "src/app.py",
+  "compatibility_date": "2026-09-24",
+  "compatibility_flags": ["python_workers"],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "expense-tracker-db",
+      "database_id": "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+    }
+  ],
+  "secrets": {
+    "required": ["SECRET_KEY"]
+  }
+}
