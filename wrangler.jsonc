@@ -1,7 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "expense-tracker",
-  "main": "src/app.py",
+  "main": "app.py",
   "compatibility_date": "2026-09-24",
   "compatibility_flags": ["python_workers"],
   "d1_databases": [
